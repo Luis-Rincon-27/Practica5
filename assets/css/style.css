@@ -1,0 +1,104 @@
+/* Estilos personalizados */
+
+body {
+    background-color: #522157;
+    color: #e4c7b7;
+    text-align: justify;
+  }
+  
+  .navbar.sticky {
+    background-color: #c2649a !important;
+    color: rgb(71, 45, 56) !important;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .sticky + .section {
+    margin-top: 60px; /* Ajusta la altura del navbar fijo */
+  }S
+
+  .section {
+    border: 1px solid ;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-frame {
+    border: 5px solid #8b4c70;
+  }
+
+  .parallax img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #back-to-top {
+    background-color: #8b4c70 ;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .page-footer {
+    background-color: #c2649a !important;
+    color: rgb(71, 45, 56) !important;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+  /* Responsividad */
+
+   @media (max-width: 360px) {
+    /* Móvil pequeño */
+    .image-frame {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 375px) {
+    /* Móvil medio */
+    .image-frame {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* Smartphone grande */
+    .image-frame {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 1366px) {
+    /* Ordenador portátil medio */
+    .image-frame {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    /* Ordenador de escritorio medio */
+    .image-frame {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 1441px) {
+    /* PC de escritorio grande */
+    .image-frame {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  
